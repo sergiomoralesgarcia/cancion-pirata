@@ -1,0 +1,19 @@
+/****** HOJA DE ESTILO DE LA WEB DE LA CANCIÓN DEL PIRATA ******/
+
+        @font-face {
+                font-family: pirata;
+                src: url("../fonts/Hentimps_Circlet.ttf");
+        }
+        body {background-image: url("../images/background.jpg");
+                background-size: 600px;
+                padding: 0%;
+                margin: 0%;}
+
+
+        #container {background-color: rgba(255, 255, 255, 0.877);
+                        width: 80%;
+                        margin: auto;
+                        padding: 20px;
+                        text-align: center;
+                        font-family: pirata; /* coloco el tipo de fuente nombrado por mi */
+                        font-size: 2em;}

@@ -1,0 +1,29 @@
+/******** estilo de pirata con imagen de fondo ********/
+@font-face {
+    font-family: pirata;
+    src: url("../fonts/Hentimps_Circlet.ttf");}
+
+body {background-color: #f0bd9e7e;}
+
+#container {background-image: url("../images/pirata2.jpg");
+            background-size: cover; /* cover estira o encoge la imagen para que encage perfectamente la imagen sin repetir */
+            background-position: center; /* decido donde está el centro de interés de mi imagen de fondo y ahí coloco el punto para posteriores recortes, por defecto es left, pero yo he puesto center */
+            width: 80%;
+            height: 100vh; /* puede provocar que el texto del programa se salga del container */
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+            font-family: pirata; 
+            font-size: 1em;
+            padding: 20px;
+            box-shadow:130px 130px 130px rgb(78, 91, 99),
+                        -130px 130px 130px rgb(78, 91, 99),
+                        130px -130px 130px rgb(78, 91, 99),
+                        -130px -130px 130px rgb(78, 91, 99);
+        }
+
+#poema {background-color: #f0bd9e7e;
+        width: 300px; /* en este caso MUY particular me conviene fijar el ancho de pixeles porque pertenece al ancho de líneas del poema y no rompe los versos. Además 300px en el ancho de cualquier móvil */
+        padding: 10px;
+        margin: 10px;
+    }
